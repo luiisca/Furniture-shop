@@ -91,6 +91,7 @@ header nav img {
     position: absolute;
     height: 100%;
     width: 100%;
+    filter: drop-shadow(3px 6px #b57457);
 }
 .item-img-container img {
     position: absolute;
