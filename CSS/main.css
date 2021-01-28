@@ -18,13 +18,33 @@ html {
     height: 100%;
     font-size: 62.5%;
     font-family: 'Fira Sans', sans-serif;
-    padding: 60px;
-    padding-top: 50px;
+}
+.wave1, .wave2 {
+    float: left;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: -1;
+}
+.wave1 {
+    background-image: url(https://res.cloudinary.com/dnkddxigy/image/upload/v1611792009/Furniture-shop/draw1_r0b5fc.svg);
+    background-size: contain;
+    width: 65%;
+    height: 58%;
+    bottom: 60%;
+}
+.wave2 {
+    background-image: url(https://res.cloudinary.com/dnkddxigy/image/upload/v1611792010/Furniture-shop/draw2_be7tnc.svg);
+    background-size: cover;
+    top: 33%;
+    width: 100%;
+    height: 67%;
 }
 body {
     height: 100%;
-    position: relative;
-    background-color: #fef7e1;
+    background-color: #e3ebda;
+    display: grid;
+    grid-template: 1fr / 1fr;
 }
 button {
     border: none;
@@ -45,12 +65,15 @@ h2 {
     font-size: 2.6rem;
 }
 header {
-    height: 100%;
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    height: 85%;
+    width: 86%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 .title-nav-container {
     display: flex;
     justify-content: space-between;
