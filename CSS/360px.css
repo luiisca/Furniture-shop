@@ -1,0 +1,12 @@
+h1 {
+    font-size: 6.5rem;
+}
+.item-img-container img {
+    height: auto;
+    min-width: 300px;
+    max-width: 310px;
+}
+.item-description__review {
+    color: #f7fbf2;
+    max-width: 118px;
+}

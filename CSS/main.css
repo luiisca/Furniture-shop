@@ -20,10 +20,8 @@ html {
     font-family: 'Fira Sans', sans-serif;
 }
 .wave1, .wave2 {
-    float: left;
     position: absolute;
     background-repeat: no-repeat;
-    background-position: left;
     z-index: -1;
 }
 .wave1 {
@@ -31,7 +29,7 @@ html {
     background-size: contain;
     width: 65%;
     height: 58%;
-    bottom: 60%;
+    top: 0%;
 }
 .wave2 {
     background-image: url(https://res.cloudinary.com/dnkddxigy/image/upload/v1611792010/Furniture-shop/draw2_be7tnc.svg);
@@ -41,6 +39,7 @@ html {
     height: 67%;
 }
 body {
+    position: relative;
     height: 100%;
     background-color: #e3ebda;
     display: grid;
@@ -108,19 +107,20 @@ header .nav__search-button {
 header nav img {
     width: 25px;
 }
-.item-img-container {
+.item-img-container {    
     display: flex;
+    align-items: center;
     justify-content: center;
     position: absolute;
     height: 100%;
     width: 100%;
     filter: drop-shadow(3px 6px #b57457);
+    z-index: -1;
 }
 .item-img-container img {
     position: absolute;
     height: 100%;
-    /* width: 580px; */
-    z-index: -1;
+    max-width: 920px;
 }
 .item-description {
     display: flex;
