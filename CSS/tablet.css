@@ -1,19 +1,6 @@
-header {
-    height: 91%;
-}
-
 .item-img-container img {
-    height: auto;
-    max-width: 550px;
+    /* height: 78vh; */
 }
-.wave1 {
-    background-image: url(https://res.cloudinary.com/dnkddxigy/image/upload/v1611796665/Furniture-shop/draw1-768px_qjzp10.svg);   
+.item-description {
     width: 100%;
-}
-.wave2 {
-    background-image: url(https://res.cloudinary.com/dnkddxigy/image/upload/v1611797222/Furniture-shop/draw2-768px_gfpao0.svg);
-}
-
-.item-description__review {
-    max-width: 180px;
 }
